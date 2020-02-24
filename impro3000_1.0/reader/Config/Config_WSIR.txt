@@ -1,0 +1,30 @@
+###Standart Config
+
+###run parameter
+input_path=
+output_path=
+staining=
+preprocessing_pipeline=
+postprocessing_pipeline=
+evaluation_pipeline=
+imageanalysis_active=
+postprocessing_active=
+evaluation_active=
+
+###technical parameter
+cores=
+tile_size=3072
+overlap=100
+
+###cell detect paramater
+cnn_path=imaging/ml_files/u-net_gen_newaug_e24.hdf5
+svm_path=imaging/ml_files/tissue_detection_svm.pkl
+scaler_path=imaging/ml_files/tissue_detection_scaler.pkl
+norm_vec_path=imaging/cd30_cell_detector_lib/im_mean_std_at3.txt
+sub_size=512
+stepfactor=0.95
+nn_input_size=256
+tissue_classes=1,2,3
+
+###validator parameters
+validation_folder=

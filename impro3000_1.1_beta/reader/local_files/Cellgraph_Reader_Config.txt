@@ -1,0 +1,20 @@
+###Sonja Config
+
+###run parameter
+input_path=C:/Users/patri/OneDrive/Dokumente/Promotion/Projekte/Sonja/Pax/current/20191018_CD30_PAX5_Distance.icsx_[ibrx_2019-11-07T16-57-21.198]_Statistics/
+output_path=C:/Users/patri/OneDrive/Dokumente/Promotion/Projekte/Sonja/Pax/workspace/test/
+graph_pipeline=testpipe
+graphprocessing_active=active
+evaluation_pipeline=test_eval
+evaluation_active=inactive
+parser=imaris_batch
+
+###validator parameters
+validation_folder=
+
+###technical parameter
+cores=16
+
+###imaris batch parameter
+batched_features=Area,Volume,Position,Sphericity,Ellipticity_(oblate),Ellipticity_(prolate),Ellipsoid_Axis_Length_A,Ellipsoid_Axis_Length_B,Ellipsoid_Axis_Length_C
+resolution=0.13

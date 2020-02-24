@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>gcDetectLib.imageOperations</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Package&nbsp;gcDetectLib ::
+        Module&nbsp;imageOperations
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="gcDetectLib.imageOperations-module.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== MODULE DESCRIPTION ==================== -->
+<h1 class="epydoc">Module imageOperations</h1><p class="nomargin-top"><span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html">source&nbsp;code</a></span></p>
+<!-- ==================== FUNCTIONS ==================== -->
+<a name="section-Functions"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Functions</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Functions"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ArrayList</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="gcDetectLib.imageOperations-module.html#shockFilter" class="summary-sig-name">shockFilter</a>(<span class="summary-sig-arg">curve</span>)</span><br />
+      Function to perform the Shockfilter n-times on one curve.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#shockFilter">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ArrayList</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="gcDetectLib.imageOperations-module.html#startShockFilterPooled" class="summary-sig-name">startShockFilterPooled</a>(<span class="summary-sig-arg">curves</span>,
+        <span class="summary-sig-arg">pool</span>)</span><br />
+      Function to call the shock filter parallelized per list of intensity 
+      values of an image:</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#startShockFilterPooled">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ArrayList</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="gcDetectLib.imageOperations-module.html#closing" class="summary-sig-name">closing</a>(<span class="summary-sig-arg">image</span>,
+        <span class="summary-sig-arg">kernelSize</span>)</span><br />
+      Function to execute the closing operator.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#closing">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ArrayList</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="gcDetectLib.imageOperations-module.html#gaussian" class="summary-sig-name">gaussian</a>(<span class="summary-sig-arg">image</span>,
+        <span class="summary-sig-arg">sigmaVal</span>)</span><br />
+      Function to execute the gaussian filter.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#gaussian">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ArrayList</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="gcDetectLib.imageOperations-module.html#logTransform" class="summary-sig-name">logTransform</a>(<span class="summary-sig-arg">image</span>)</span><br />
+      Function for the logarithmic transformation of the intensity values.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#logTransform">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ArrayList</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="gcDetectLib.imageOperations-module.html#shift" class="summary-sig-name">shift</a>(<span class="summary-sig-arg">image</span>)</span><br />
+      Function to shift the logarithmized intensity values.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#shift">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ArrayList</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="gcDetectLib.imageOperations-module.html#edgeDetection" class="summary-sig-name">edgeDetection</a>(<span class="summary-sig-arg">xPlot</span>,
+        <span class="summary-sig-arg">yPlot</span>,
+        <span class="summary-sig-arg">row</span>,
+        <span class="summary-sig-arg">difThreshold</span>,
+        <span class="summary-sig-arg">whiteThreshold</span>,
+        <span class="summary-sig-arg">roi</span>,
+        <span class="summary-sig-arg">lowerBoundary</span>,
+        <span class="summary-sig-arg">upperBoundary</span>)</span><br />
+      Function to detect possible boundary points of germinal centers.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#edgeDetection">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ArrayList</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="gcDetectLib.imageOperations-module.html#getConvexHull" class="summary-sig-name">getConvexHull</a>(<span class="summary-sig-arg">edges</span>)</span><br />
+      Function to calculate convex hulls for a number of list of points</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#getConvexHull">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ArrayList</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="gcDetectLib.imageOperations-module.html#createDefault" class="summary-sig-name">createDefault</a>(<span class="summary-sig-arg">image</span>)</span><br />
+      Function to create a black image with the same scale like a given 
+      image.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#createDefault">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="gcDetectLib.imageOperations-module.html#createMask" class="summary-sig-name">createMask</a>(<span class="summary-sig-arg">image</span>,
+        <span class="summary-sig-arg">maxLayer</span>,
+        <span class="summary-sig-arg">edges</span>,
+        <span class="summary-sig-arg">workingDir</span>,
+        <span class="summary-sig-arg">sep</span>)</span><br />
+      Function to mark white convex hulls, representing possible germinal 
+      centers on a black image and saving it.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#createMask">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="resizeImage"></a><span class="summary-sig-name">resizeImage</span>(<span class="summary-sig-arg">image</span>,
+        <span class="summary-sig-arg">zoomfactor</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#resizeImage">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ArrayList</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="gcDetectLib.imageOperations-module.html#fillRectangle" class="summary-sig-name">fillRectangle</a>(<span class="summary-sig-arg">x</span>,
+        <span class="summary-sig-arg">y</span>,
+        <span class="summary-sig-arg">width</span>,
+        <span class="summary-sig-arg">height</span>,
+        <span class="summary-sig-arg">mask</span>)</span><br />
+      Function to mark a white box in a given mask.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#fillRectangle">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ArrayList</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="gcDetectLib.imageOperations-module.html#calculateROI" class="summary-sig-name">calculateROI</a>(<span class="summary-sig-arg">image</span>,
+        <span class="summary-sig-arg">dimension</span>,
+        <span class="summary-sig-arg">workingDir</span>,
+        <span class="summary-sig-arg">roiThreshold</span>)</span><br />
+      Function to calculate the regoin of interest(ROI).</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#calculateROI">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">ArrayList</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="gcDetectLib.imageOperations-module.html#pointsForThreshold" class="summary-sig-name">pointsForThreshold</a>(<span class="summary-sig-arg">xPlot</span>,
+        <span class="summary-sig-arg">yPlot</span>)</span><br />
+      Function to collect every intensity distances, later called 
+      &quot;jump&quot;, between adjacent points.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#pointsForThreshold">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== VARIABLES ==================== -->
+<a name="section-Variables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Variables</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Variables"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="__package__"></a><span class="summary-name">__package__</span> = <code title="'gcDetectLib'"><code class="variable-quote">'</code><code class="variable-string">gcDetectLib</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTION DETAILS ==================== -->
+<a name="section-FunctionDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Function Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-FunctionDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="shockFilter"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">shockFilter</span>(<span class="sig-arg">curve</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#shockFilter">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Function to perform the Shockfilter n-times on one curve.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>curve</code></strong> (ArrayList) - List of Values, which has to be flattend</li>
+    </ul></dd>
+    <dt>Returns: ArrayList</dt>
+        <dd>Filtered List</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="startShockFilterPooled"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">startShockFilterPooled</span>(<span class="sig-arg">curves</span>,
+        <span class="sig-arg">pool</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#startShockFilterPooled">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Function to call the shock filter parallelized per list of intensity 
+  values of an image:</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>curves</code></strong> (ArrayList) - List of lists with Values, which has to be flattend</li>
+        <li><strong class="pname"><code>pool</code></strong> (Multiprocessing pool) - Pool of processor, the function will work on</li>
+    </ul></dd>
+    <dt>Returns: ArrayList</dt>
+        <dd>List with Flattend curves</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="closing"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">closing</span>(<span class="sig-arg">image</span>,
+        <span class="sig-arg">kernelSize</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#closing">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Function to execute the closing operator. (dilate + erode)</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>image</code></strong> (ArrayList) - Image, which has to be filtered</li>
+        <li><strong class="pname"><code>kernelSize</code></strong> (Integer) - Size of the kernel, which should be used for dilation and erotion</li>
+    </ul></dd>
+    <dt>Returns: ArrayList</dt>
+        <dd>Image, which had to be filtered</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="gaussian"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">gaussian</span>(<span class="sig-arg">image</span>,
+        <span class="sig-arg">sigmaVal</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#gaussian">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Function to execute the gaussian filter.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>image</code></strong> (ArrayList) - Image, which has to be filtered</li>
+        <li><strong class="pname"><code>sigmaVal</code></strong> (Integer) - Sigma value to determine the kernel of the gaussian filter</li>
+    </ul></dd>
+    <dt>Returns: ArrayList</dt>
+        <dd>Image, which had to be filtered</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="logTransform"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">logTransform</span>(<span class="sig-arg">image</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#logTransform">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Function for the logarithmic transformation of the intensity 
+  values.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>image</code></strong> (ArrayList) - Image, which has to be transformed</li>
+    </ul></dd>
+    <dt>Returns: ArrayList</dt>
+        <dd>Image, which had to be transformed</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="shift"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">shift</span>(<span class="sig-arg">image</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#shift">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Function to shift the logarithmized intensity values.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>image</code></strong> (ArrayList) - Image, which has to be transformed</li>
+    </ul></dd>
+    <dt>Returns: ArrayList</dt>
+        <dd>Image, which had to be transformed</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="edgeDetection"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">edgeDetection</span>(<span class="sig-arg">xPlot</span>,
+        <span class="sig-arg">yPlot</span>,
+        <span class="sig-arg">row</span>,
+        <span class="sig-arg">difThreshold</span>,
+        <span class="sig-arg">whiteThreshold</span>,
+        <span class="sig-arg">roi</span>,
+        <span class="sig-arg">lowerBoundary</span>,
+        <span class="sig-arg">upperBoundary</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#edgeDetection">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Function to detect possible boundary points of germinal centers.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>xPlot</code></strong> (ArrayList) - List of mean intensity values in x direction</li>
+        <li><strong class="pname"><code>yPlot</code></strong> (ArrayList) - List of mean intensity values in y direction</li>
+        <li><strong class="pname"><code>row</code></strong> (Integer) - Height of the row, about which we had calculated the mean values</li>
+        <li><strong class="pname"><code>difThreshold</code></strong> (Float) - Threshold for a significant &quot;jump&quot;</li>
+        <li><strong class="pname"><code>lowerBoundary</code></strong> (Integer) - Smallest width or height of a germinal center in pixel</li>
+        <li><strong class="pname"><code>upperBoundary</code></strong> (Integer) - Biggest width or height of a germinal center in pixel</li>
+        <li><strong class="pname"><code>whiteThreshold</code></strong> (Integer) - Minimum intensity inside a germinal center</li>
+    </ul></dd>
+    <dt>Returns: ArrayList</dt>
+        <dd>List of possible boundary points</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="getConvexHull"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getConvexHull</span>(<span class="sig-arg">edges</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#getConvexHull">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Function to calculate convex hulls for a number of list of points</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>edges</code></strong> (ArrayList) - List of list of possible boundary points</li>
+    </ul></dd>
+    <dt>Returns: ArrayList</dt>
+        <dd>Minimal list of possible boundary points</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="createDefault"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">createDefault</span>(<span class="sig-arg">image</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#createDefault">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Function to create a black image with the same scale like a given 
+  image.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>image</code></strong> (ArrayList) - Template for the creation of a black copy</li>
+    </ul></dd>
+    <dt>Returns: ArrayList</dt>
+        <dd>black image with the same scale like a given image</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="createMask"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">createMask</span>(<span class="sig-arg">image</span>,
+        <span class="sig-arg">maxLayer</span>,
+        <span class="sig-arg">edges</span>,
+        <span class="sig-arg">workingDir</span>,
+        <span class="sig-arg">sep</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#createMask">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Function to mark white convex hulls, representing possible germinal 
+  centers on a black image and saving it.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>image</code></strong> (ArrayList) - Template for the creation of a black copy</li>
+        <li><strong class="pname"><code>workingDir</code></strong> (String) - Path to the current working directory</li>
+        <li><strong class="pname"><code>sep</code></strong> (String) - Seperator to build up systempaths</li>
+        <li><strong class="pname"><code>edges</code></strong> (ArrayList) - Minimal list of possible boundary points</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="fillRectangle"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">fillRectangle</span>(<span class="sig-arg">x</span>,
+        <span class="sig-arg">y</span>,
+        <span class="sig-arg">width</span>,
+        <span class="sig-arg">height</span>,
+        <span class="sig-arg">mask</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#fillRectangle">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Function to mark a white box in a given mask.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>x</code></strong> (Integer) - Upper left x value of the starting point for filling the white 
+          box</li>
+        <li><strong class="pname"><code>y</code></strong> (Integer) - Upper left y value of the starting point for filling the white 
+          box</li>
+        <li><strong class="pname"><code>width</code></strong> (Integer) - Width of the box, which has to be filled</li>
+        <li><strong class="pname"><code>height</code></strong> (Integer) - Height of the box, which has to be filled</li>
+        <li><strong class="pname"><code>mask</code></strong> (ArrayList) - Image, in which the box will be filled</li>
+    </ul></dd>
+    <dt>Returns: ArrayList</dt>
+        <dd>Marked image</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="calculateROI"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">calculateROI</span>(<span class="sig-arg">image</span>,
+        <span class="sig-arg">dimension</span>,
+        <span class="sig-arg">workingDir</span>,
+        <span class="sig-arg">roiThreshold</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#calculateROI">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Function to calculate the regoin of interest(ROI).</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>dimension</code></strong> (Integer) - Dimension of the box, for the mean intesity calculation, which is
+          the basis to discriminate between foreground and background 
+          (width = width/dimension, height = height/dimension)</li>
+        <li><strong class="pname"><code>image</code></strong> (ArrayList) - Image, which is the basis for the ROI calculation</li>
+        <li><strong class="pname"><code>workingDir</code></strong> (String) - Path to the current working directory</li>
+    </ul></dd>
+    <dt>Returns: ArrayList</dt>
+        <dd>Image with the marked ROI</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="pointsForThreshold"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">pointsForThreshold</span>(<span class="sig-arg">xPlot</span>,
+        <span class="sig-arg">yPlot</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="gcDetectLib.imageOperations-pysrc.html#pointsForThreshold">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Function to collect every intensity distances, later called 
+  &quot;jump&quot;, between adjacent points. (0 excluded)</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>xPlot</code></strong> (ArrayList) - List of mean intensity values in x direction</li>
+        <li><strong class="pname"><code>yPlot</code></strong> (ArrayList) - List of mean intensity values in y direction</li>
+    </ul></dd>
+    <dt>Returns: ArrayList</dt>
+        <dd>List of &quot;jumps&quot; greater then 0</dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Mon Dec 18 13:58:11 2017
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

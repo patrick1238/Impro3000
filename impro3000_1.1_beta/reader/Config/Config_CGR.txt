@@ -1,0 +1,20 @@
+###Standart Config
+
+###run parameter
+input_path=
+output_path=
+graph_pipeline=
+graphprocessing_active=
+evaluation_pipeline=
+evaluation_active=
+parser=
+
+###validator parameters
+validation_folder=
+
+###technical parameter
+cores=
+
+###imaris batch parameter
+batched_features=
+resolution=

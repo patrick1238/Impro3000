@@ -1,0 +1,5 @@
+cnn_path=CellDetector_lib/u-net_gen_newaug_e24.hdf5
+svm_path=CellDetector_lib/tissue_detection_svm.pkl
+scaler_path=CellDetector_lib/tissue_detection_scaler.pkl
+norm_vec_path=CellDetector_lib/im_mean_std_at3.txt
+out_path=results/

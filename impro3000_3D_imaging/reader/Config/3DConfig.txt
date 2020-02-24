@@ -1,0 +1,3 @@
+input_path=C:/Users/patri/OneDrive/Dokumente/Promotion/Images/3D/
+output_path=/workspace/
+pipeline=actin_skeletonization

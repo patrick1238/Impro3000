@@ -1,0 +1,30 @@
+###laptop Config
+
+###run parameter
+input_path=Y:\Constantin\
+output_path=Y:\Constantin\
+staining=actin2um
+preprocessing_pipeline=image_extraction
+postprocessing_pipeline=save_cellgraph
+evaluation_pipeline=actin_evaluation
+imageanalysis_active=active
+postprocessing_active=inactive
+evaluation_active=inactive
+
+###technical parameter
+cores=4
+tile_size=3072
+overlap=100
+
+###cell detect paramater
+cnn_path=imaging/ml_files/u-net_gen_newaug_e24.hdf5
+svm_path=imaging/ml_files/tissue_detection_svm.pkl
+scaler_path=imaging/ml_files/tissue_detection_scaler.pkl
+norm_vec_path=imaging/cd30_cell_detector_lib/im_mean_std_at3.txt
+sub_size=512
+stepfactor=0.95
+nn_input_size=256
+tissue_classes=1,2,3
+
+###validator parameters
+validation_folder=C:/Users/patri/OneDrive/Dokumente/Promotion/Tools/gcDetection/annotations/

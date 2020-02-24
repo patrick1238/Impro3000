@@ -1,0 +1,13 @@
+###Bockenheim Config
+
+###run parameter
+input_path=C:/Users/patri/OneDrive/Dokumente/Promotion/Graphen/6286_cells.csv
+output_path=../workspace3000/project_joerg/NS/
+graph_pipeline=postpipe_joerg
+graphprocessing_active=active
+evaluation_pipeline=evaluation_test
+evaluation_active=inactive
+parser=impro
+
+###validator parameters
+validation_folder=
